@@ -10,7 +10,7 @@ fn main() {
         println!("--vlag wys wys vlag"); // "--vlag shows flag" in afrikaans
     } else if args[1] == "--vlag"{
         let hex1 = "000000446974206973206e696520276e20766c6167206e6965";
-        let hex2 = "00000000000000000000000000000000000000000000000000";
+        let hex2 = "4354461f1e1554361a7331010c45550a491333150641025638";
         
         let bytes1 = decode(hex1).expect("ongeldige heks1");
         let bytes2 = decode(hex2).expect("ongeldige heks2");
