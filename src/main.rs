@@ -1,4 +1,3 @@
-use hex::decode;
 use std::env;
 
 fn main() {
