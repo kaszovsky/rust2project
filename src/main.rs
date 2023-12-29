@@ -12,7 +12,7 @@ fn main() {
         let text: String = String::from_utf8(hex::decode(hex1).unwrap()).unwrap();
         println!("{}", text);
     }else if args[1] == "--bronkode"{
-        println!("bronkode kan gevind word op my github, gebruikersnaam kaszovsky");
+        println!("bronkode kan gevind word op my github");
     
     } else {
             println!("ongeldige argumene: {}", args[1]);
